@@ -33,4 +33,5 @@ def data_cacher(method: Callable) -> Callable:
 def get_page(url: str) -> str:
     """return url
     """
+
     return requests.get(url).text
